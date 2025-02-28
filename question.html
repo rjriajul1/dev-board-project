@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question </title>
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- tailwind and daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="container mx-auto p-4">
+   
+     <header>
+        <nav class="flex justify-between bg-slate-100 shadow-md rounded-lg p-4">
+            <div class="flex gap-3 justify-center items-center">
+                <img src="assets/logo.png" alt="this is a logo image">
+                <p class="text-xl">Dev <span class="font-bold text-2xl">Board</span></p>
+            </div>
+
+            <div>
+                <button onclick="backToDesk()" class="btn bg-blue-500 text-white font-semibold">Back to Desk</button>
+            </div>
+        </nav>
+     </header>
+
+     <main>
+        <section>
+            <h1 class="text-center font-bold text-xl my-4">Blogs</h1>
+             
+            <!-- question number one -->
+            <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
+                <h1 class="font-bold text-xl">question-1:What are the differnt ways to select on element in the DOM?</h1>
+                <hr class="border-dotted my-1">
+                <P class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae saepe asperiores exercitationem delectus id quae debitis enim </P>
+            </div>
+            <!-- question number two -->
+            <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
+                <h1 class="font-bold text-xl">question-2:What is the different between  innerHTML , innerText, and textContent?</h1>
+                <hr class="border-dotted my-1">
+                <P class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae saepe asperiores exercitationem delectus id quae debitis enim </P>
+            </div>
+            <!-- question number three -->
+            <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
+                <h1 class="font-bold text-xl">question-3:What is event delegation in the DOM</h1>
+                <hr class="border-dotted my-1">
+                <P class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae saepe asperiores exercitationem delectus id quae debitis enim </P>
+            </div>
+            <!-- question number four -->
+            <div class=" bg-slate-100 shadow-md rounded-lg p-6">
+                <h1 class="font-bold text-xl">question-4:What is event bubbling in the DOM?</h1>
+                <hr class="border-dotted my-1">
+                <P class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae saepe asperiores exercitationem delectus id quae debitis enim </P>
+            </div>
+
+
+        </section>
+     </main>
+
+     <script>
+           function backToDesk(){
+              window.location.href="index.html";
+           }
+     </script>
+    
+    
+</body>
+</html>
