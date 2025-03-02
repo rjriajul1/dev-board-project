@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +17,10 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body class="container mx-auto p-4">
-   
-     <header>
+
+    <header>
         <nav class="flex justify-between bg-slate-100 shadow-md rounded-lg p-4">
             <div class="flex gap-3 justify-center items-center">
                 <img src="assets/logo.png" alt="this is a logo image">
@@ -29,58 +31,72 @@
                 <button onclick="backToDesk()" class="btn bg-blue-500  text-white font-semibold">Back to Desk</button>
             </div>
         </nav>
-     </header>
+    </header>
 
-     <main>
+    <main>
         <section>
             <h1 class="text-center font-bold text-xl my-4">Blogs</h1>
-             
+
             <!-- question number one -->
             <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
                 <h1 class="font-bold text-xl">Question-1: What are the different ways to select an element in the DOM?
                 </h1>
                 <hr class="border-dotted my-2">
-                <P class="text-gray-700">We are select elements four way in the DOM.For example, we are select class 'getElementsByClassName' and Id 'getElementById' and tags 'getElementsByTagsName' and 'querySelector and querySelectorAll' in this method using selected elements.</P>
+                <P class="text-gray-700">We are select elements four way in the DOM.For example, we are select class
+                    'getElementsByClassName' and Id 'getElementById' and tags 'getElementsByTagsName' and 'querySelector
+                    and querySelectorAll' in this method using selected elements.</P>
             </div>
             <!-- question number two -->
             <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
-                <h1 class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                <h1 class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent ?
                 </h1>
                 <hr class="border-dotted my-2">
-                <P class="text-gray-700">Thire are some difference innerHTML,innerText and textContent .innerHTML return text with tags and innerText return only visible text avoid hidden text and textContent return text and with hidden text don't avoid hidden text .Here thire are some difference .  </P>
+                <P class="text-gray-700">Thire are some difference innerHTML,innerText and textContent .innerHTML return
+                    text with tags and innerText return only visible text avoid hidden text and textContent return text
+                    and with hidden text don't avoid hidden text .Here thire are some difference . </P>
             </div>
             <!-- question number three -->
             <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
                 <h1 class="font-bold text-xl">Question-3: What is event delegation in the DOM?
                 </h1>
                 <hr class="border-dotted my-2">
-                <P class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae saepe asperiores exercitationem delectus id quae debitis enim </P>
+                <P class="text-gray-700">Event delegation is a technique in the DOM where a single event listener is
+                    added to a parent element to handle events on its child elements using event bubbling. Instead of
+                    attaching event listeners to multiple child elements, the parent listens for events and determines
+                    the target element using event.target. This improves performance and works for dynamically added
+                    elements.
             </div>
             <!-- question number four -->
             <div class=" bg-slate-100 shadow-md mb-6 rounded-lg p-6">
                 <h1 class="font-bold text-xl">Question-4: What is event bubbling in the DOM?
                 </h1>
                 <hr class="border-dotted my-2">
-                <P class="text-gray-700">If we are on click any place in the web page but don't know web page where is the click then capturning web page finaly found targat point then priant and again searching another event up to over . Up to over we are called bubbling  </P>
+                <P class="text-gray-700">If we are on click any place in the web page but don't know web page where is
+                    the click then capturning web page finaly found targat point then priant and again searching another
+                    event up to over . Up to over we are called bubbling </P>
             </div>
             <!-- question number five -->
             <div class=" bg-slate-100 shadow-md rounded-lg p-6">
                 <h1 class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?
                 </h1>
                 <hr class="border-dotted my-2">
-                <P class="text-gray-700">We are creat a element by the JavaScript this method doucement.creatElement and if we are add any class and remove any thing we are using classList if remove any attribute so writing classList.remove() and for adding classList.add() .</P>
+                <P class="text-gray-700">We are creat a element by the JavaScript this method doucement.creatElement and
+                    if we are add any class and remove any thing we are using classList if remove any attribute so
+                    writing classList.remove() and for adding classList.add() .</P>
             </div>
-            
+
 
         </section>
-     </main>
+    </main>
 
-     <script>
-           function backToDesk(){
-              window.location.href="index.html";
-           }
-     </script>
-    
-    
+    <script>
+        function backToDesk() {
+            window.location.href = "index.html";
+        }
+    </script>
+
+
 </body>
+
 </html>
