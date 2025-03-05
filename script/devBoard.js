@@ -1,11 +1,13 @@
 
+
+
 document.getElementById('discover-box').addEventListener('click', function(){
      window.location.href="question.html";
 })
 
 const boardBtn = document.querySelectorAll(".board-btn");
 for(let btn of boardBtn){
-  
+   
     btn.addEventListener("click", function(){
        
         alert("Board updated Successfully");
@@ -27,12 +29,13 @@ for(let btn of boardBtn){
     // }
 
     
+    const title = btn.parentNode.parentNode.children[1].innerText;
     
     const body = document.getElementById('Table-body');
-
+    
     const tr = document.createElement('tr');
     tr.innerHTML=`
-    <p class="bg-slate-300 rounded-md p-4 lg:w-64 w-[690px]  mt-6 ">You have completed the task Fix Mobile Button Issue
+    <p class="bg-slate-300 rounded-md p-4 lg:w-64 w-[690px]  mt-6 ">You have completed the task ${title}
     at <span>${new Date().toLocaleTimeString()}
     
     `
@@ -40,6 +43,7 @@ for(let btn of boardBtn){
 
     });
 }
+
 
 document.getElementById('clear-btn').addEventListener("click", function(){
     
